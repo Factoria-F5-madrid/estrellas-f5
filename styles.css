@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.persona {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.foto {
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-container.single-image .foto {
+    width: 100%;
+}
+
+.info-container {
+    text-align: left;
+}
+
+.estrella {
+    width: 50px;
+    height: 50px;
+}
+
+.estrella-box{
+    display: flex;
+    align-items: center;
+}
+
+#nombre{
+    margin: 0 0 0 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .foto {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
