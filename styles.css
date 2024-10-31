@@ -7,7 +7,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
 }
+spline-viewer {
+    width: 250px;
+    height: 400px;
+    display: block; /* asegura que respete el tamaño */
+    margin: 0 auto; /* opcional: centra el contenido */
+  }
 
 .container {
     background-color: white;
@@ -15,18 +23,34 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 800px;
+    max-width: 1200px;
     width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-areas:
+        "info-title info-container info-container"
 }
+
 
 h1 {
     color: #333;
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 80px;
+
+    
 }
+
 
 .persona {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+}
+
+.info-title {
+    text-align: left;
+    grid-area: info-title;
 }
 
 .image-container {
@@ -48,6 +72,7 @@ h1 {
 
 .info-container {
     text-align: left;
+    grid-area: info-container;
 }
 
 .estrella {
