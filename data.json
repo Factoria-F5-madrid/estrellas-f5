@@ -3,7 +3,7 @@
     "nombre": "Ana",
     "apellido": "García",
     "urlCara": "img/persona1-cara.jpg",
-    "mensaje": "Destacó por su compromiso y apoyo, y ahora está en Manpower",
+    "mensaje": "Destacó por su compromiso y apoyo, y ahora está en Manpower como desarrolladora, es un ejemplo a seguir para todas",
     "urlMeme": "img/persona-meme.jpg",
     "tipoEstrella": "externa"
   },
@@ -11,14 +11,14 @@
     "nombre": "Carlos",
     "apellido": "Rodríguez",
     "urlCara": "img/persona2-cara.jpg",
-    "mensaje": "Su pasión por el código inspiró a toda la clase",
+    "mensaje": "Su pasión por el código inspiró a toda la clase, ahora es un gran mentor y ayuda a todas a resolver dudas y a mejorar",
     "tipoEstrella": "interna"
   },
   {
     "nombre": "Laura",
     "apellido": "Martínez",
     "urlCara": "img/persona3-cara.jpg",
-    "mensaje": "De coder a mentora, ahora ayuda a otros a cumplir sus sueños",
+    "mensaje": "De coder a mentora, ahora ayuda a otros a cumplir sus sueños, es genial porque ha hecho cosas increíbles y ha cumplido sus sueños",
     "urlMeme": "img/persona-meme1.png",
     "tipoEstrella": "coder"
   }

@@ -13,26 +13,44 @@ body {
     animation: gradientAnimation 10s ease infinite;
 }
 
-spline-viewer {
+/*spline-viewer {
     width: 400px;
     height: 500px;
-    display: block; /* asegura que respete el tamaño */
-    margin: 0 auto; /* opcional: centra el contenido */
-  }
+    display: block; 
+    margin: 0 auto; 
+  }*/
 
-.container {
+  .container {
+    position: relative; /* Necesario para el pseudo-elemento */
     background-color: white;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-areas:
-        "info-title info-container info-container"
+    overflow: hidden; /* Para que el pseudo-elemento no se desborde */
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/js.jpg'); /* Cambia esto por tu imagen */
+    background-size: 50%; /* Aquí ajustamos el tamaño al 120% */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: right center;
+    opacity: 0.5; /* Controla la opacidad aquí */
+    z-index: 0;
+    pointer-events: none; /* Permite hacer clic en el contenido sin interferencias */
+}
+
+.container * {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima del pseudo-elemento */
 }
 
 h1 {
@@ -49,17 +67,33 @@ h1 {
 .persona {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-areas:
+        "info-title info-container";
 }
 
 .info-title {
     text-align: left;
+    display: flex;
+    align-items: center;
     grid-area: info-title;
+    gap: 0px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-img-star {
+    width: 170px; /* Tamaño del iframe */
+    height: 200px; /* Tamaño del iframe */
+    border: none; /* Eliminar el borde gris */
+    box-shadow: none; /* Eliminar sombra */
 }
 
 .image-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 50px;
 }
 
 .foto {
@@ -98,26 +132,61 @@ h1 {
 }
 
 #nombre{
-    margin: 0 0 0 10px;
+    margin: 0;
     font-family: 'Poppins', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     color: gray;
 }
 
 #mensaje {
     font-family: 'Poppins', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(68, 68, 68);
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%; /* Ocupa toda la fila debajo del iframe y h2 */
+    text-align: left;
 }
 
 @media (max-width: 768px) {
-    .container {
-        max-width: 450px;
+.container {    
+    max-width: 450px;
+}
+
+    .persona {
+        display: grid;
         grid-template-columns: 1fr; /* Una sola columna */
         grid-template-areas:
             "info-title"
             "info-container"; /* Info-title arriba y info-container abajo */
     }
+
+    .card-img-star {
+        width: 120px; /* Tamaño del iframe */
+        height: 120px; /* Tamaño del iframe */
+        border: none; /* Eliminar el borde gris */
+        box-shadow: none; /* Eliminar sombra */
+    }
+    .info-title {
+        grid-area: info-title;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centra horizontalmente */
+        justify-content: center; /* Centra verticalmente */
+        text-align: center; /* Centra el texto */
+        padding: 10px; /* Opcional: añade espacio para un mejor diseño */
+    }
+
+    #nombre{
+        font-size: 30px;
+    }
+
+    #mensaje {
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
     h1 {
     font-size: 50px;
     }   
