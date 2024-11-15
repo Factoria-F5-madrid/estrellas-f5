@@ -4,15 +4,18 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: top;
     min-height: 100vh;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(135deg, #FF4700, #ff7b00);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
 }
+
 spline-viewer {
-    width: 250px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     display: block; /* asegura que respete el tamaño */
     margin: 0 auto; /* opcional: centra el contenido */
   }
@@ -32,14 +35,16 @@ spline-viewer {
         "info-title info-container info-container"
 }
 
-
 h1 {
-    color: #333;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #ffffff;
     margin-bottom: 20px;
+    font-weight: 200;
     text-align: center;
     font-size: 80px;
-}
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
 
+}
 
 .persona {
     opacity: 1;
@@ -62,6 +67,8 @@ h1 {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+    height: 380px;
+
 }
 
 .image-container.single-image .foto {
@@ -76,28 +83,49 @@ h1 {
 .estrella {
     width: 50px;
     height: 50px;
+    margin: 0;
+
 }
 
-.estrella-box{
+.estrella-box {
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.tipo-estrella{
+    margin: 0 0 0 10px;
 }
 
 #nombre{
     margin: 0 0 0 10px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 30px;
+    color: gray;
 }
 
-@media (max-width: 600px) {
+#mensaje {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+}
+
+@media (max-width: 768px) {
     .container {
-        padding: 10px;
+        max-width: 450px;
+        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-areas:
+            "info-title"
+            "info-container"; /* Info-title arriba y info-container abajo */
     }
-
-    .image-container {
-        flex-direction: column;
-    }
-
-    .foto {
-        width: 100%;
-        margin-bottom: 10px;
-    }
+    h1 {
+    font-size: 50px;
+    }   
+    spline-viewer {
+        width: 400px;
+        height: 400px;
+        display: block; /* asegura que respete el tamaño */
+        margin: 0 auto; /* opcional: centra el contenido */
+      }
+    
 }

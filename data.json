@@ -1,25 +1,25 @@
 [
-    {
-        "nombre": "Ana",
-        "apellido": "García",
-        "urlCara": "img/persona1-cara.jpg",
-        "mensaje": "Destacó por su compromiso y apoyo, y ahora está en Manpower",
-        "urlMeme": "img/persona-meme.jpg",
-        "tipoEstrella": "externa"
-    },
-    {
-        "nombre": "Carlos",
-        "apellido": "Rodríguez",
-        "urlCara": "img/persona2-cara.jpg",
-        "mensaje": "Su pasión por el código inspiró a toda la clase",
-        "tipoEstrella": "interna"
-    },
-    {
-        "nombre": "Laura",
-        "apellido": "Martínez",
-        "urlCara": "img/persona3-cara.jpg",
-        "mensaje": "De coder a mentora, ahora ayuda a otros a cumplir sus sueños",
-        "urlMeme": "img/persona-meme.jpg",
-        "tipoEstrella": "coder"
-    }
+  {
+    "nombre": "Ana",
+    "apellido": "García",
+    "urlCara": "img/persona1-cara.jpg",
+    "mensaje": "Destacó por su compromiso y apoyo, y ahora está en Manpower",
+    "urlMeme": "img/persona-meme.jpg",
+    "tipoEstrella": "externa"
+  },
+  {
+    "nombre": "Carlos",
+    "apellido": "Rodríguez",
+    "urlCara": "img/persona2-cara.jpg",
+    "mensaje": "Su pasión por el código inspiró a toda la clase",
+    "tipoEstrella": "interna"
+  },
+  {
+    "nombre": "Laura",
+    "apellido": "Martínez",
+    "urlCara": "img/persona3-cara.jpg",
+    "mensaje": "De coder a mentora, ahora ayuda a otros a cumplir sus sueños",
+    "urlMeme": "img/persona-meme1.png",
+    "tipoEstrella": "coder"
+  }
 ]
