@@ -1,25 +1,81 @@
 [
   {
     "nombre": "Ana",
-    "apellido": "García",
-    "urlCara": "img/persona1-cara.jpg",
-    "mensaje": "Destacó por su compromiso y apoyo, y ahora está en Manpower como desarrolladora, es un ejemplo a seguir para todas",
+    "apellido": "Karen",
+    "urlCara": "img/anakaren.jpg",
+    "mensaje": "Eres flexible y con gran capacidad para enfrentar cambios y desafíos con una actitud positiva. Además de creativa para solventar cualquier circunstancia. Eres cercana, atenta e inteligente.",
     "urlMeme": "img/persona-meme.jpg",
-    "tipoEstrella": "externa"
-  },
-  {
-    "nombre": "Carlos",
-    "apellido": "Rodríguez",
-    "urlCara": "img/persona2-cara.jpg",
-    "mensaje": "Su pasión por el código inspiró a toda la clase, ahora es un gran mentor y ayuda a todas a resolver dudas y a mejorar",
     "tipoEstrella": "interna"
   },
   {
-    "nombre": "Laura",
-    "apellido": "Martínez",
-    "urlCara": "img/persona3-cara.jpg",
-    "mensaje": "De coder a mentora, ahora ayuda a otros a cumplir sus sueños, es genial porque ha hecho cosas increíbles y ha cumplido sus sueños",
+    "nombre": "Susana",
+    "apellido": "Sanchez",
+    "urlCara": "img/susanasanchez.jpg",
+    "mensaje": "Viniste a poner orden, eres multitask y gracias a eso no se hunde nuestra nave. Además de que siempre tienes la mejor actitud y logras unir a todo el equipo.",
+    "tipoEstrella": "interna"
+  },
+  {
+    "nombre": "Celia",
+    "apellido": "Millan",
+    "urlCara": "img/celiamillan.jpg",
+    "mensaje": "Tienes gran capacidad para ser resiliente ante los desafíos. Superando obstáculos y enfrentándose a situaciones complicadas. ",
     "urlMeme": "img/persona-meme1.png",
-    "tipoEstrella": "coder"
+    "tipoEstrella": "interna"
+  },
+  {
+    "nombre": "David",
+    "apellido": "Robert",
+    "urlCara": "img/davidrobert.jpg",
+    "mensaje": "Eres preciso, eficiente y siempre dispuesto a ayudar. Tu calma y capacidad resolutiva no solo inspiran confianza y seguridad, sino que también crean un ambiente de tranquilidad que facilita un ambiente colaborativo y profesional.",
+    "urlMeme": "img/persona-meme.jpg",
+    "tipoEstrella": "interna"
+  },{
+    "nombre": "Leire",
+    "apellido": "",
+    "urlCara": "img/leire.jpg",
+    "mensaje": "Elogiamos tu valentía y disposición para enfrentar desafíos y salir de tu zona de confort. También tu trabajo duro, dedicación y motivación, el amor a lo que haces y el cariño con el que tratas a las coders.",
+    "urlMeme": "img/leire-meme.jpg",
+    "tipoEstrella": "interna"
+  },
+  {
+    "nombre": "Jonnathan",
+    "apellido": "",
+    "urlCara": "img/jonnathan.jpg",
+    "mensaje": "Siempre con ganas de mejorar, adaptarte y aportar lo máximo que puedes. Tienes una gran capacidad de aprender y haces lo necesario para cumplir y ayudar.",
+    "urlMeme": "img/jonnathan-meme.jpg",
+    "tipoEstrella": "interna"
+  },
+  {
+    "nombre": "Sebas",
+    "apellido": "",
+    "urlCara": "img/sebas.jpg",
+    "mensaje": "Destacamos tu determinación, perseverancia y capacidad de adaptación. Eres inteligente y calmado, aportando esa tranquilidad a los que están a tu alrededor.",
+    "urlMeme": "img/sebas-meme.jpg",
+    "tipoEstrella": "interna"
+  },
+  {
+    "nombre": "Jorge",
+    "apellido": "B",
+    "urlCara": "img/jorgeb.jpg",
+    "mensaje": "Siempre implicado en el aprendizaje propio y de los que te rodean, en busca constante de conocimiento y mejora. Transmites confianza y seguridad. Eres un referente para los que te rodean.",
+    "urlMeme": "img/jorgeb-meme.jpg",
+    "tipoEstrella": "interna"
+  },
+  {
+    "nombre": "Jorge",
+    "apellido": "M",
+    "urlCara": "img/jorgem.jpg",
+    "mensaje": "Queremos destacar tu perseverancia, dedicación y motivación para perseguir sus sueños y metas, al igual que por las de factoría.",
+    "urlMeme": "img/jorgem-meme.jpg",
+    "tipoEstrella": "interna"
+  },
+  {
+    "nombre": "Alex",
+    "apellido": "",
+    "urlCara": "img/alex.jpg",
+    "mensaje": "Queremos reconocer tu capacidad para inspirar y motivar a los demás a alcanzar metas y conseguir sueños. Eres un ejemplo para todas.",
+    "urlMeme": "img/alex-meme.jpg",
+    "tipoEstrella": "interna"
   }
 ]
+
