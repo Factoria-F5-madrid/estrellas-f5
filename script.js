@@ -24,6 +24,7 @@ function mostrarPersonaAleatoria() {
 
     const persona = personas[currentIndex];
 
+    // Actualizar la información de la persona
     document.getElementById("foto-cara").src = persona.urlCara;
     const fotoMeme = document.getElementById("foto-meme");
     const imageContainer = document.getElementById("image-container");
@@ -42,36 +43,44 @@ function mostrarPersonaAleatoria() {
     ).textContent = `${persona.nombre} ${persona.apellido}`;
     document.getElementById("mensaje").textContent = persona.mensaje;
 
-    const estrella = document.getElementById("tipo-estrella");
-
-    // Cambiar URL del modelo con setAttribute
+    // Actualizar el contenido de la etiqueta <h2 class="type-star">
+    const typeStarElement = document.querySelector(".type-star");
     switch (persona.tipoEstrella) {
       case "externa":
-        estrella.setAttribute(
-          "url",
-          "https://prod.spline.design/cBNXQxR8-4CnlO8P/scene.splinecode"
-        );
+        typeStarElement.textContent = "Estrella Externa";
         break;
       case "interna":
-        estrella.setAttribute(
-          "url",
-          "https://prod.spline.design/DKyrHSbGuVx5qIcL/scene.splinecode"
-        );
+        typeStarElement.textContent = "Estrella Interna";
         break;
       case "coder":
-        estrella.setAttribute(
-          "url",
-          "https://prod.spline.design/ZmlZbHCutbxXaIWW/scene.splinecode"
-        );
+        typeStarElement.textContent = "Estrella Coder";
         break;
       default:
-        estrella.setAttribute("url", "");
+        typeStarElement.textContent = "Estrella";
     }
 
-    // Forzar el componente a actualizar
-    estrella.setAttribute("key", new Date().getTime());
+    // Cambiar dinámicamente el `src` del iframe
+    const estrella = document.getElementById("tipo-estrella");
+    let iframeSrc = "";
 
-    estrella.style.display = estrella.getAttribute("url") ? "block" : "none";
+    switch (persona.tipoEstrella) {
+      case "externa":
+        iframeSrc = "./3d/star1.html";
+        break;
+      case "interna":
+        iframeSrc = "./3d/star2.html";
+        break;
+      case "coder":
+        iframeSrc = "./3d/star3.html";
+        break;
+      default:
+        iframeSrc = "";
+    }
+
+    estrella.src = iframeSrc;
+    estrella.style.display = iframeSrc ? "block" : "none";
+
+    // Mostrar el contenedor con una animación de desvanecimiento
     personaDiv.style.opacity = 1;
   }, 500);
 }
