@@ -90,6 +90,15 @@ h1 {
     box-shadow: none; /* Eliminar sombra */
 }
 
+.type-star {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 30px;
+    color: gray;
+    margin: 0;
+    font-weight: 100;
+
+}
+
 .image-container {
     display: flex;
     justify-content: space-between;
@@ -135,6 +144,7 @@ h1 {
     margin: 0;
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 40px;
+    margin-left: 20px;
     color: gray;
 }
 
@@ -177,7 +187,11 @@ h1 {
         padding: 10px; /* Opcional: añade espacio para un mejor diseño */
     }
 
+
+
     #nombre{
+        margin-top: 0px;
+        margin-left: 0px;
         font-size: 30px;
     }
 
