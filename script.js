@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function mostrarPersonaAleatoria() {
   const personaDiv = document.getElementById("persona");
+  const container = document.querySelector(".container");
   personaDiv.style.opacity = 0;
 
   setTimeout(() => {
@@ -79,6 +80,14 @@ function mostrarPersonaAleatoria() {
 
     estrella.src = iframeSrc;
     estrella.style.display = iframeSrc ? "block" : "none";
+
+    // Actualizar el fondo del contenedor de forma dinámica
+    if (persona.fondo) {
+      container.style.setProperty(
+        "--background-image",
+        `url(${persona.fondo})`
+      );
+    }
 
     // Mostrar el contenedor con una animación de desvanecimiento
     personaDiv.style.opacity = 1;
