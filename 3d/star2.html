@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <style>
+      .a-enter-vr-button {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <a-scene vr-mode-ui="enabled: false">
+      <camera id="myCamera"></camera>
+      <a-entity
+        id="chart"
+        position="0 0 -4.8"
+        rotation="0 0 0"
+        scale="0.45 0.45 0.45"
+        gltf-model="./3d/Sun.glb"
+        animation="property: rotation; to: 0 -360 0; dur: 9000; easing: linear; loop: true"
+      ></a-entity>
+    </a-scene>
+  </body>
+</html>

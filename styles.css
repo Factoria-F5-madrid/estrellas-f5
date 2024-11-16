@@ -13,12 +13,18 @@ body {
     animation: gradientAnimation 10s ease infinite;
 }
 
-/*spline-viewer {
-    width: 400px;
-    height: 500px;
-    display: block; 
-    margin: 0 auto; 
-  }*/
+.header {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente (opcional) */
+    gap: 15px; /* Espacio entre el h1 y la imagen */
+    margin-bottom: 20px;
+}
+
+.header-logo {
+    width: 80px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
 
   .container {
     position: relative; /* Necesario para el pseudo-elemento */
@@ -187,8 +193,9 @@ h1 {
         padding: 10px; /* Opcional: añade espacio para un mejor diseño */
     }
 
-
-
+    .type-star {
+        font-size: 20px;
+    }
     #nombre{
         margin-top: 0px;
         margin-left: 0px;
@@ -204,11 +211,5 @@ h1 {
     h1 {
     font-size: 50px;
     }   
-    spline-viewer {
-        width: 400px;
-        height: 400px;
-        display: block; /* asegura que respete el tamaño */
-        margin: 0 auto; /* opcional: centra el contenido */
-      }
     
 }
