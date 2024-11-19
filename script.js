@@ -1,15 +1,32 @@
 let personas;
 let currentIndex = -1;
+let filteredPersonas;
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch("data.json")
     .then((response) => response.json())
     .then((data) => {
       personas = data;
-      mostrarPersonaAleatoria();
-      setInterval(mostrarPersonaAleatoria, 5000); // Cambiar cada 5 segundos
+      filteredPersonas = filterPersonas();
+      if (filteredPersonas.length > 0) {
+        mostrarPersonaAleatoria();
+        setInterval(mostrarPersonaAleatoria, 5000); // Cambiar cada 5 segundos
+      } else {
+        document.getElementById("persona").innerHTML = "<p>No se encontraron resultados para el filtro aplicado.</p>";
+      }
     });
 });
+
+function filterPersonas() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const tipoEstrella = urlParams.get('tipo');
+  
+  if (tipoEstrella && ['interna', 'externa', 'coder'].includes(tipoEstrella)) {
+    return personas.filter(persona => persona.tipoEstrella === tipoEstrella);
+  }
+  
+  return personas;
+}
 
 function mostrarPersonaAleatoria() {
   const personaDiv = document.getElementById("persona");
@@ -19,11 +36,11 @@ function mostrarPersonaAleatoria() {
   setTimeout(() => {
     let newIndex;
     do {
-      newIndex = Math.floor(Math.random() * personas.length);
-    } while (newIndex === currentIndex && personas.length > 1);
+      newIndex = Math.floor(Math.random() * filteredPersonas.length);
+    } while (newIndex === currentIndex && filteredPersonas.length > 1);
     currentIndex = newIndex;
 
-    const persona = personas[currentIndex];
+    const persona = filteredPersonas[currentIndex];
 
     // Actualizar la información de la persona
     document.getElementById("foto-cara").src = persona.urlCara;
