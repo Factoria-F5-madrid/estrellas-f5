@@ -1,4 +1,4 @@
-# Estrellas F5
+# Estrellas Factoría F5 🌟
 
 ## Descripción del proyecto
 El proyecto **Estrellas F5** es una página web diseñada para reconocer y destacar a las personas que, de distintas maneras, contribuyen al crecimiento de Factoría F5 y su comunidad. 
@@ -6,12 +6,7 @@ El proyecto **Estrellas F5** es una página web diseñada para reconocer y desta
 El objetivo es celebrar estas contribuciones y mantener vivo el espíritu de colaboración que impulsa nuestra comunidad.
 
 ## Requisitos
-Estas “estrellas” se dividen en tres categorías:
-# Estrellas Factoría F5 🌟
-
-Factoría F5 reconoce y valora la contribución de aquellas personas que se destacan en nuestra comunidad, ya sea desde fuera, como exalumnos/as o como parte de nuestro equipo. Aquí presentamos las categorías y los requisitos para ser una estrella de Factoría F5.
-
----
+Aquí presentamos las categorías y los requisitos para ser una estrella de Factoría F5:
 
 ## 1. Estrellas Externas ⭐
 **Descripción:**  
