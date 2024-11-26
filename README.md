@@ -74,6 +74,8 @@ Personas que forman parte del equipo de Factoría F5, tanto en roles técnicos c
 - **Alineación con los valores organizativos:**  
   Reflejar de manera constante los valores fundamentales de Factoría F5: inclusión, aprendizaje continuo, innovación y compromiso social.
 
+---
+
 ## Proceso de Selección de Nuevas Estrellas 🌟
 
 En la reunión quincenal de la Escuela de Madrid, se expondrán las nuevas estrellas propuestas. Se realizará una votación para decidir si la persona propuesta cumple con los criterios y valores para ser reconocida como estrella de Factoría F5.
