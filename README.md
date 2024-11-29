@@ -55,27 +55,13 @@ Exalumnos/as de Factoría F5 que regresan para compartir sus experiencias y cono
 
 ---
 
-## 3. Persona del Equipo Estrella 🌟
+## 3. Coders Estrella(temporal) 🌟
 
 **Descripción:**  
-Personas que forman parte del equipo de Factoría F5, tanto en roles técnicos como en el equipo transversal, y destacan por su colaboración, impacto y contribución al aprendizaje continuo.
-
-**Requisitos:**
-
-- **Antigüedad mínima:**  
-  Llevar al menos 1 año como parte del equipo de Factoría F5, ya sea en roles técnicos o en áreas transversales.
-- **Contribución significativa:**  
-  Haber realizado aportaciones destacadas en ámbitos como:
-  - Liderar o participar activamente en proyectos que impulsen el trabajo colaborativo entre diferentes equipos.
-  - Diseñar o compartir recursos educativos (documentación, talleres, guías) que fomenten el aprendizaje continuo y el desarrollo interno de la organización.
-  - Impulsar actividades o iniciativas que promuevan la integración y el desarrollo profesional dentro del equipo.
-- **Reconocimiento interno:**  
-  Ser valorado/a por compañeros/as y colaboradores/as como una persona que fomenta el trabajo en equipo, está siempre dispuesta a ayudar y contribuye al crecimiento colectivo.
-- **Alineación con los valores organizativos:**  
-  Reflejar de manera constante los valores fundamentales de Factoría F5: inclusión, aprendizaje continuo, innovación y compromiso social.
+Estudiantes que apagan fuegos, que salvan a sus compañeros. 
 
 ---
 
-## Proceso de Selección de Nuevas Estrellas 🌟
+## 4. Empresas Estrella 🌟
 
-En la reunión quincenal de la Escuela de Madrid, se expondrán las nuevas estrellas propuestas. Se realizará una votación para decidir si la persona propuesta cumple con los criterios y valores para ser reconocida como estrella de Factoría F5.
+
