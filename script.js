@@ -19,13 +19,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function filterPersonas() {
   const urlParams = new URLSearchParams(window.location.search);
-  const tipoEstrella = urlParams.get('tipo');
-  
+  const tipoEstrella = urlParams.get('tipo'); // Obtener tipoEstrella
+  const id = urlParams.get('id'); // Obtener id del query
+
+  let result = personas;
+
   if (tipoEstrella && ['interna', 'externa', 'coder'].includes(tipoEstrella)) {
-    return personas.filter(persona => persona.tipoEstrella === tipoEstrella);
+    result = result.filter(persona => persona.tipoEstrella === tipoEstrella);
   }
-  
-  return personas;
+
+  if (id) {
+    result = result.filter(persona => persona.id === parseInt(id)); // Comparar como entero
+  }
+
+  return result;
 }
 
 function mostrarPersonaAleatoria() {

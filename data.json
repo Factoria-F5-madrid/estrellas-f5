@@ -1,5 +1,6 @@
 [
   {
+    "id":1,
     "nombre": "Ana Karen",
     "apellido": "Aragón",
     "urlCara": "img/anakaren.jpg",
@@ -9,6 +10,7 @@
     "fondo": ""
   },
   {
+    "id": 2,
     "nombre": "Susana",
     "apellido": "Sanchez",
     "urlCara": "img/susanasanchez.jpg",
@@ -17,6 +19,7 @@
     "fondo": "img/html.png"
   },
   {
+    "id": 3,
     "nombre": "Celia",
     "apellido": "Millan",
     "urlCara": "img/celiamillan.jpg",
@@ -26,6 +29,7 @@
     "fondo": "img/js.jpg"
   },
   {
+    "id": 4,
     "nombre": "David",
     "apellido": "Robert",
     "urlCara": "img/david.png",
@@ -35,6 +39,7 @@
     "fondo": "img/css.png"
   },
   {
+    "id": 5,
     "nombre": "Leire",
     "apellido": "García",
     "urlCara": "img/leire.png",
@@ -44,6 +49,7 @@
     "fondo": "img/html.png"
   },
   {
+    "id": 6,
     "nombre": "Jonnathan",
     "apellido": "Ospina",
     "urlCara": "img/jonn.png",
@@ -53,6 +59,7 @@
     "fondo": "img/js.jpg"
   },
   {
+    "id": 7,
     "nombre": "Jorge",
     "apellido": "Benítez",
     "urlCara": "img/jorge.jpeg",
@@ -62,6 +69,7 @@
     "fondo": "img/html.png"
   },
   {
+    "id": 8,
     "nombre": "Jorge",
     "apellido": "Martínez",
     "urlCara": "img/jorgem.png",
@@ -71,6 +79,7 @@
     "fondo": "img/css.png"
   },
   {
+    "id": 9,
     "nombre": "Alexandra",
     "apellido": "Zambrano",
     "urlCara": "img/alex.png",
