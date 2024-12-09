@@ -73,16 +73,16 @@ function mostrarPersonaAleatoria() {
     const typeStarElement = document.querySelector(".type-star");
     switch (persona.tipoEstrella) {
       case "externa":
-        typeStarElement.textContent = "Estrella Externa";
+        typeStarElement.textContent = "Profesional Estrella F5";
         break;
       case "interna":
-        typeStarElement.textContent = "Estrella Interna";
+        typeStarElement.textContent = "Alumni Estrella F5";
         break;
       case "coder":
-        typeStarElement.textContent = "Estrella Coder";
+        typeStarElement.textContent = "Coder Estrella F5";
         break;
       default:
-        typeStarElement.textContent = "Estrella";
+        typeStarElement.textContent = "Estrella F5";
     }
 
     // Cambiar dinámicamente el `src` del iframe

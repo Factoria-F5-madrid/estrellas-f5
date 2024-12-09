@@ -4,8 +4,7 @@
     "nombre": "Ana Karen",
     "apellido": "Aragón",
     "urlCara": "img/anakaren.jpg",
-    "mensaje": "Eres flexible y con gran capacidad para enfrentar cambios y desafíos con una actitud positiva. Además de creativa para solventar cualquier circunstancia. Eres cercana, atenta e inteligente.",
-    "urlMeme": "",
+    "mensaje": "Eres flexible y con gran capacidad para enfrentar cambios y desafíos con una actitud positiva.",
     "tipoEstrella": "externa"
   },
   {
@@ -13,7 +12,7 @@
     "nombre": "Susana",
     "apellido": "Sanchez",
     "urlCara": "img/susanasanchez.jpg",
-    "mensaje": "Viniste a poner orden, eres multitask y gracias a eso no se hunde nuestra nave. Además de que siempre tienes la mejor actitud y logras unir a todo el equipo.",
+    "mensaje": "Viniste a poner orden, eres multitask y gracias a eso no se hunde nuestra nave.",
     "tipoEstrella": "coder"
   },
   {
@@ -21,8 +20,7 @@
     "nombre": "Celia",
     "apellido": "Millan",
     "urlCara": "img/celiamillan.jpg",
-    "mensaje": "Tienes gran capacidad para ser resiliente ante los desafíos. Superando obstáculos y enfrentándose a situaciones complicadas. ",
-    "urlMeme": "",
+    "mensaje": "Tienes gran capacidad para ser resiliente ante los desafíos.",
     "tipoEstrella": "interna"
   },
   {
@@ -30,8 +28,7 @@
     "nombre": "David",
     "apellido": "Robert",
     "urlCara": "img/david.png",
-    "mensaje": "Eres preciso, eficiente y siempre dispuesto a ayudar. Tu calma y capacidad resolutiva no solo inspiran confianza y seguridad, sino que también crean un ambiente de tranquilidad que facilita un ambiente colaborativo y profesional.",
-    "urlMeme": "",
+    "mensaje": "Eres preciso, eficiente y siempre dispuesto a ayudar.",
     "tipoEstrella": "externa"
   },
   {
@@ -39,8 +36,7 @@
     "nombre": "Leire",
     "apellido": "García",
     "urlCara": "img/leire.png",
-    "mensaje": "Elogiamos tu valentía y disposición para enfrentar desafíos y salir de tu zona de confort. También tu trabajo duro, dedicación y motivación, el amor a lo que haces y el cariño con el que tratas a las coders.",
-    "urlMeme": "",
+    "mensaje": "Elogiamos tu valentía y disposición para enfrentar desafíos y salir de tu zona de confort.",
     "tipoEstrella": "coder"
   },
   {
@@ -48,8 +44,7 @@
     "nombre": "Jonnathan",
     "apellido": "Ospina",
     "urlCara": "img/jonn.png",
-    "mensaje": "Siempre con ganas de mejorar, adaptarte y aportar lo máximo que puedes. Tienes una gran capacidad de aprender y haces lo necesario para cumplir y ayudar.",
-    "urlMeme": "",
+    "mensaje": "Siempre con ganas de mejorar, adaptarte y aportar lo máximo que puedes.",
     "tipoEstrella": "interna"
   },
   {
@@ -57,8 +52,7 @@
     "nombre": "Jorge",
     "apellido": "Benítez",
     "urlCara": "img/jorge.jpeg",
-    "mensaje": "Siempre implicado en el aprendizaje propio y de los que te rodean, en busca constante de conocimiento y mejora. Transmites confianza y seguridad. Eres un referente para los que te rodean.",
-    "urlMeme": "",
+    "mensaje": "Siempre implicado en el aprendizaje propio y de los que te rodean.",
     "tipoEstrella": "coder"
   },
   {
@@ -66,8 +60,7 @@
     "nombre": "Jorge",
     "apellido": "Martínez",
     "urlCara": "img/jorgem.png",
-    "mensaje": "Queremos destacar tu perseverancia, dedicación y motivación para perseguir sus sueños y metas, al igual que por las de factoría.",
-    "urlMeme": "",
+    "mensaje": "Queremos destacar tu perseverancia, dedicación y motivación.",
     "tipoEstrella": "coder"
   },
   {
@@ -75,8 +68,7 @@
     "nombre": "Alexandra",
     "apellido": "Zambrano",
     "urlCara": "img/alex.png",
-    "mensaje": "Queremos reconocer tu capacidad para inspirar y motivar a los demás a alcanzar metas y conseguir sueños. Eres un ejemplo para todas.",
-    "urlMeme": "",
+    "mensaje": "Reconocemos tu capacidad para inspirar y motivar a los demás a alcanzar metas.",
     "tipoEstrella": "coder"
   }
 ]
