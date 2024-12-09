@@ -12,24 +12,25 @@ document.addEventListener("DOMContentLoaded", () => {
         mostrarPersonaAleatoria();
         setInterval(mostrarPersonaAleatoria, 5000); // Cambiar cada 5 segundos
       } else {
-        document.getElementById("persona").innerHTML = "<p>No se encontraron resultados para el filtro aplicado.</p>";
+        document.getElementById("persona").innerHTML =
+          "<p>No se encontraron resultados para el filtro aplicado.</p>";
       }
     });
 });
 
 function filterPersonas() {
   const urlParams = new URLSearchParams(window.location.search);
-  const tipoEstrella = urlParams.get('tipo'); // Obtener tipoEstrella
-  const id = urlParams.get('id'); // Obtener id del query
+  const tipoEstrella = urlParams.get("tipo"); // Obtener tipoEstrella
+  const id = urlParams.get("id"); // Obtener id del query
 
   let result = personas;
 
-  if (tipoEstrella && ['interna', 'externa', 'coder'].includes(tipoEstrella)) {
-    result = result.filter(persona => persona.tipoEstrella === tipoEstrella);
+  if (tipoEstrella && ["interna", "externa", "coder"].includes(tipoEstrella)) {
+    result = result.filter((persona) => persona.tipoEstrella === tipoEstrella);
   }
 
   if (id) {
-    result = result.filter(persona => persona.id === parseInt(id)); // Comparar como entero
+    result = result.filter((persona) => persona.id === parseInt(id)); // Comparar como entero
   }
 
   return result;
@@ -104,14 +105,6 @@ function mostrarPersonaAleatoria() {
 
     estrella.src = iframeSrc;
     estrella.style.display = iframeSrc ? "block" : "none";
-
-    // Actualizar el fondo del contenedor de forma dinámica
-    if (persona.fondo) {
-      container.style.setProperty(
-        "--background-image",
-        `url(${persona.fondo})`
-      );
-    }
 
     // Mostrar el contenedor con una animación de desvanecimiento
     personaDiv.style.opacity = 1;

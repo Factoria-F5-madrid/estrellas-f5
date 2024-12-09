@@ -10,7 +10,7 @@ El objetivo es celebrar estas contribuciones y mantener vivo el espíritu de col
 
 Aquí presentamos las categorías y los requisitos para ser una estrella de Factoría F5:
 
-## 1. Profesional Estrella ⭐
+## 1. Profesional Estrella F5 ⭐
 
 **Descripción:**  
 Profesionales del sector tecnológico que contribuyen de manera voluntaria al desarrollo de los/las estudiantes y las actividades de Factoría F5.
@@ -31,7 +31,7 @@ Profesionales del sector tecnológico que contribuyen de manera voluntaria al de
 
 ---
 
-## 2. Alumni Estrella ✨
+## 2. Alumni Estrella F5 ✨
 
 **Descripción:**  
 Exalumnos/as de Factoría F5 que regresan para compartir sus experiencias y conocimientos adquiridos en sus nuevos trabajos, brindando inspiración y apoyo a las generaciones actuales.
@@ -55,7 +55,7 @@ Exalumnos/as de Factoría F5 que regresan para compartir sus experiencias y cono
 
 ---
 
-## 3. Coders Estrella (Temporal) 🌟
+## 3. Coders Estrella F5 (Temporal) 🌟
 
 **Descripción:**  
 Estudiantes que se destacan por su actitud de colaboración, ayudando a resolver problemas críticos, apoyando a sus compañeros/as y brindando soporte adicional a las personas formadoras.
@@ -80,7 +80,7 @@ Este reconocimiento es **temporal** y estará vigente únicamente durante el tie
 
 ---
 
-## 4. Empresas Estrella 🌟
+## 4. Empresas Estrella F5 🌟
 
 **Descripción:**  
 Reconocimiento a las empresas que apoyan el desarrollo de los bootcamps y la comunidad de Factoría F5, ya sea financiando programas, colaborando en actividades formativas o brindando experiencias enriquecedoras para l@s estudiantes.
