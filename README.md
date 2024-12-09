@@ -18,7 +18,7 @@ Profesionales del sector tecnológico que contribuyen de manera voluntaria al de
 **Requisitos:**
 
 - **Participación mínima:**  
-  Haber participado como voluntario/a en al menos 3 actividades relevantes en Factoría F5, tales como:
+  Haber participado como voluntario/a en al menos 5 actividades relevantes en Factoría F5, tales como:
   - Impartir charlas, talleres o webinars dirigidos a lxs coders.
   - Participar como stakeholder en proyectos de bootcamp.
   - Formar parte de jurados en proyectos, hackathons o eventos similares.
@@ -58,10 +58,8 @@ Exalumnos/as de Factoría F5 que regresan para compartir sus experiencias y cono
 ## 3. Coders Estrella(temporal) 🌟
 
 **Descripción:**  
-Estudiantes que apagan fuegos, que salvan a sus compañeros. 
+Estudiantes que apagan fuegos, que salvan a sus compañeros.
 
 ---
 
 ## 4. Empresas Estrella 🌟
-
-
