@@ -1,4 +1,6 @@
 :root {
+  --font-primary: "Poppins", Arial, sans-serif;
+  --font-secondary: "Rubik", Arial, sans-serif;
   --principal-1: #ff4700;
   --principal-2: #020100;
   --principal-3: #ffffff;
@@ -8,7 +10,6 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -22,7 +23,7 @@ body {
 }
 
 h1 {
-  font-family: "Rubik", Arial, sans-serif;
+  font-family: var(--font-secondary);
   font-style: italic;
   color: var(--principal-3);
   margin-top: 85px;
@@ -34,7 +35,7 @@ h1 {
 }
 
 .description {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: var(--font-primary);
   font-size: 18px;
   color: var(--principal-3);
   width: 100%; /* Ocupa toda la fila debajo del iframe y h2 */
@@ -87,14 +88,14 @@ h1 {
 }
 
 .card-img-star {
-  width: 170px; /* Tamaño del iframe */
-  height: 200px; /* Tamaño del iframe */
-  border: none; /* Eliminar el borde gris */
-  box-shadow: none; /* Eliminar sombra */
+  width: 170px;
+  height: 200px;
+  border: none;
+  box-shadow: none;
 }
 
 .type-star {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: var(--font-primary);
   font-size: 25px;
   color: gray;
   margin: 0;
@@ -140,14 +141,14 @@ h1 {
 
 #nombre {
   margin: 0;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: var(--font-primary);
   font-size: 30px;
   margin-left: 20px;
   color: gray;
 }
 
 #mensaje {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: var(--font-primary);
   font-size: 20px;
   color: rgb(68, 68, 68);
   margin-top: 10px;
