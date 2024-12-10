@@ -1,6 +1,14 @@
+:root {
+  --principal-1: #ff4700;
+  --principal-2: #020100;
+  --principal-3: #ffffff;
+  --complementario-1: #9c9c9c;
+  --complementario-2: #ffa37f;
+  --complementario-3: rgb(77, 77, 77);
+}
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
   margin: 0;
   padding: 0;
   display: flex;
@@ -8,9 +16,31 @@ body {
   min-height: 100vh;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(135deg, #ff4700, #ff7b00);
+  background: var(--principal-1);
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
+}
+
+h1 {
+  font-family: "Rubik", Arial, sans-serif;
+  font-style: italic;
+  color: var(--principal-3);
+  margin-top: 85px;
+  margin-bottom: 1px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 18px;
+  color: var(--principal-3);
+  width: 100%; /* Ocupa toda la fila debajo del iframe y h2 */
+  text-align: center;
+  margin: 0 auto; /* Centra el contenido horizontalmente */
+  padding: 0 20px;
 }
 
 .header {
@@ -28,7 +58,7 @@ body {
 
 .container {
   position: relative;
-  background-color: white;
+  background-color: var(--principal-3);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -36,39 +66,6 @@ body {
   max-width: 1000px;
   width: 100%;
   overflow: hidden;
-}
-
-.container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: var(--background-image);
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: right center;
-  opacity: 0.5;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.container * {
-  position: relative;
-  z-index: 1;
-}
-
-h1 {
-  font-family: "Rubik", Arial, sans-serif;
-  font-style: italic;
-  color: #ffffff;
-  margin-top: 85px;
-  margin-bottom: 1px;
-  font-weight: 700;
-  text-align: center;
-  font-size: 100px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .persona {
@@ -159,14 +156,6 @@ h1 {
   text-align: left;
 }
 
-#description {
-  font-family: "Poppins", Arial, sans-serif;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-  width: 100%; /* Ocupa toda la fila debajo del iframe y h2 */
-  text-align: center;
-}
-
 @media (max-width: 768px) {
   .header {
     gap: 2px; /* Espacio entre el h1 y la imagen */
@@ -178,6 +167,11 @@ h1 {
       width: 200px;
       margin-top: 10px;
     }
+  }
+
+  .description {
+    max-width: 480px;
+    font-size: 16px;
   }
 
   .container {
@@ -194,8 +188,8 @@ h1 {
   }
 
   .card-img-star {
-    width: 120px; /* Tamaño del iframe */
-    height: 120px; /* Tamaño del iframe */
+    width: 130px; /* Tamaño del iframe */
+    height: 130px; /* Tamaño del iframe */
     border: none; /* Eliminar el borde gris */
     box-shadow: none; /* Eliminar sombra */
   }
