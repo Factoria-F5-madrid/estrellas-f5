@@ -4,7 +4,7 @@
     "nombre": "Oury",
     "apellido": "Diallo",
     "urlCara": "img/oury.png",
-    "mensaje": "❤️ Dando forma al futuro, compartiendo lo mejor de sí con quienes empieza este viaje.",
+    "mensaje": "Dando forma al futuro, compartiendo lo mejor de sí con quienes empieza este viaje.",
     "tipoEstrella": "coder"
   },
   {
@@ -12,7 +12,7 @@
     "nombre": "Marcos",
     "apellido": "Íñigo",
     "urlCara": "img/marcos.png",
-    "mensaje": "🌟 Voluntario excepcional, demostrando que compartir es multiplicar el conocimiento.",
+    "mensaje": "Voluntario excepcional, demostrando que compartir es multiplicar el conocimiento.",
     "tipoEstrella": "profesional"
   },
   {
@@ -20,7 +20,7 @@
     "nombre": "Diego",
     "apellido": "Bastidas",
     "urlCara": "img/diego.png",
-    "mensaje": "❤️ Generosidad en acción, compartiendo lo mejor de sí para formar el futuro.",
+    "mensaje": "Generosidad en acción, compartiendo lo mejor de sí para formar el futuro.",
     "tipoEstrella": "profesional"
   },
   {
@@ -28,7 +28,7 @@
     "nombre": "Guillermo",
     "apellido": "Martínez",
     "urlCara": "img/guillermom.png",
-    "mensaje": "💡 Profesional generoso, iluminando mentes con su experiencia única.",
+    "mensaje": "Profesional generoso, iluminando mentes con su experiencia única.",
     "tipoEstrella": "profesional"
   },
   {
@@ -36,7 +36,7 @@
     "nombre": "Guillermo",
     "apellido": "Matas",
     "urlCara": "img/guillermomatas.png",
-    "mensaje": "✨ Inspirador nato, recordándonos que la grandeza está en dar.",
+    "mensaje": "Inspirador nato, recordándonos que la grandeza está en dar.",
     "tipoEstrella": "profesional"
   },
   {
@@ -44,7 +44,7 @@
     "nombre": "Cristina",
     "apellido": "Sanjuan",
     "urlCara": "img/cristina.png",
-    "mensaje": "❤️ Excoder brillante, regalando experiencia a quienes siguen sus pasos.",
+    "mensaje": "Excoder brillante, regalando experiencia a quienes siguen sus pasos.",
     "tipoEstrella": "alumni"
   },
   {
@@ -52,7 +52,7 @@
     "nombre": "Zoraida",
     "apellido": "Manzanares",
     "urlCara": "img/zoraida.png",
-    "mensaje": "  🌟 Orgullo de la casa, devolviendo al aula lo que un día la inspiró.",
+    "mensaje": "Orgullo de la casa, devolviendo al aula lo que un día la inspiró.",
     "tipoEstrella": "alumni"
   },
   {
@@ -60,7 +60,7 @@
     "nombre": "Alberto",
     "apellido": "Díaz",
     "urlCara": "img/alberto.png",
-    "mensaje": "🧠 De aprendiz a maestro, una inspiración para todos nosotros.",
+    "mensaje": "De aprendiz a maestro, una inspiración para todos nosotros.",
     "tipoEstrella": "alumni"
   }
 ]
