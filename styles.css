@@ -88,8 +88,8 @@ h1 {
 }
 
 .card-img-star {
-  width: 170px;
-  height: 200px;
+  width: 200px;
+  height: 300px;
   border: none;
   box-shadow: none;
 }
@@ -105,13 +105,14 @@ h1 {
 .image-container {
   display: flex;
   justify-content: space-between;
-  margin: 30px;
+  margin: 15px;
 }
 
 .foto {
   object-fit: contain;
   border-radius: 10px;
   height: 350px;
+  margin: 0;
 }
 
 .image-container.single-image .foto {
@@ -176,7 +177,7 @@ h1 {
   }
 
   .container {
-    max-width: 450px;
+    max-width: 420px;
     margin-bottom: 20px;
   }
 
