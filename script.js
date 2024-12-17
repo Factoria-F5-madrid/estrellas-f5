@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
       personas = data;
       filteredPersonas = filterPersonas();
       if (filteredPersonas.length > 0) {
-        mostrarPersonaAleatoria();
-        setInterval(mostrarPersonaAleatoria, 5000); // Cambiar cada 5 segundos
+        mostrarSiguientePersona();
+        setInterval(mostrarSiguientePersona, 3000);
       } else {
         document.getElementById("persona").innerHTML =
           "<p>No se encontraron resultados para el filtro aplicado.</p>";
@@ -20,37 +20,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function filterPersonas() {
   const urlParams = new URLSearchParams(window.location.search);
-  const tipoEstrella = urlParams.get("tipo"); // Obtener tipoEstrella
-  const id = urlParams.get("id"); // Obtener id del query
+  const tipoEstrella = urlParams.get("tipo");
+  const id = urlParams.get("id");
 
   let result = personas;
 
-  if (tipoEstrella && ["interna", "externa", "coder"].includes(tipoEstrella)) {
+  if (tipoEstrella && ["alumni", "profesional", "coder"].includes(tipoEstrella)) {
     result = result.filter((persona) => persona.tipoEstrella === tipoEstrella);
   }
 
   if (id) {
-    result = result.filter((persona) => persona.id === parseInt(id)); // Comparar como entero
+    result = result.filter((persona) => persona.id === parseInt(id));
   }
 
   return result;
 }
 
-function mostrarPersonaAleatoria() {
+function mostrarSiguientePersona() {
   const personaDiv = document.getElementById("persona");
-  const container = document.querySelector(".container");
   personaDiv.style.opacity = 0;
 
   setTimeout(() => {
-    let newIndex;
-    do {
-      newIndex = Math.floor(Math.random() * filteredPersonas.length);
-    } while (newIndex === currentIndex && filteredPersonas.length > 1);
-    currentIndex = newIndex;
-
+    currentIndex = (currentIndex + 1) % filteredPersonas.length;
     const persona = filteredPersonas[currentIndex];
 
-    // Actualizar la información de la persona
     document.getElementById("foto-cara").src = persona.urlCara;
     const fotoMeme = document.getElementById("foto-meme");
     const imageContainer = document.getElementById("image-container");
@@ -69,13 +62,12 @@ function mostrarPersonaAleatoria() {
     ).textContent = `${persona.nombre} ${persona.apellido}`;
     document.getElementById("mensaje").textContent = persona.mensaje;
 
-    // Actualizar el contenido de la etiqueta <h2 class="type-star">
     const typeStarElement = document.querySelector(".type-star");
     switch (persona.tipoEstrella) {
-      case "externa":
+      case "profesional":
         typeStarElement.textContent = "Profesional Estrella F5";
         break;
-      case "interna":
+      case "alumni":
         typeStarElement.textContent = "Alumni Estrella F5";
         break;
       case "coder":
@@ -85,15 +77,15 @@ function mostrarPersonaAleatoria() {
         typeStarElement.textContent = "Estrella F5";
     }
 
-    // Cambiar dinámicamente el `src` del iframe
+ 
     const estrella = document.getElementById("tipo-estrella");
     let iframeSrc = "";
 
     switch (persona.tipoEstrella) {
-      case "externa":
+      case "profesional":
         iframeSrc = "./3d/star1.html";
         break;
-      case "interna":
+      case "alumni":
         iframeSrc = "./3d/star2.html";
         break;
       case "coder":
@@ -106,7 +98,7 @@ function mostrarPersonaAleatoria() {
     estrella.src = iframeSrc;
     estrella.style.display = iframeSrc ? "block" : "none";
 
-    // Mostrar el contenedor con una animación de desvanecimiento
     personaDiv.style.opacity = 1;
   }, 500);
 }
+

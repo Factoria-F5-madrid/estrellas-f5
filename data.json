@@ -4,71 +4,63 @@
     "nombre": "Oury",
     "apellido": "Diallo",
     "urlCara": "img/oury.png",
-    "mensaje": "Eres flexible y con gran capacidad para enfrentar cambios y desafíos con una actitud positiva.",
-    "tipoEstrella": "interna"
+    "mensaje": "❤️ Dando forma al futuro, compartiendo lo mejor de sí con quienes empieza este viaje.",
+    "tipoEstrella": "coder"
   },
   {
     "id": 2,
-    "nombre": "Susana",
-    "apellido": "Sanchez",
-    "urlCara": "img/susanasanchez.jpg",
-    "mensaje": "Viniste a poner orden, eres multitask y gracias a eso no se hunde nuestra nave.",
-    "tipoEstrella": "coder"
+    "nombre": "Marcos",
+    "apellido": "Íñigo",
+    "urlCara": "img/marcos.png",
+    "mensaje": "🌟 Voluntario excepcional, demostrando que compartir es multiplicar el conocimiento.",
+    "tipoEstrella": "profesional"
   },
   {
     "id": 3,
-    "nombre": "Celia",
-    "apellido": "Millan",
-    "urlCara": "img/celiamillan.jpg",
-    "mensaje": "Tienes gran capacidad para ser resiliente ante los desafíos.",
-    "tipoEstrella": "interna"
+    "nombre": "Diego",
+    "apellido": "Bastidas",
+    "urlCara": "img/diego.png",
+    "mensaje": "❤️ Generosidad en acción, compartiendo lo mejor de sí para formar el futuro.",
+    "tipoEstrella": "profesional"
   },
   {
     "id": 4,
-    "nombre": "David",
-    "apellido": "Robert",
-    "urlCara": "img/david.png",
-    "mensaje": "Eres preciso, eficiente y siempre dispuesto a ayudar.",
-    "tipoEstrella": "externa"
+    "nombre": "Guillermo",
+    "apellido": "Martínez",
+    "urlCara": "img/guillermom.png",
+    "mensaje": "💡 Profesional generoso, iluminando mentes con su experiencia única.",
+    "tipoEstrella": "profesional"
   },
   {
     "id": 5,
-    "nombre": "Leire",
-    "apellido": "García",
-    "urlCara": "img/leire.png",
-    "mensaje": "Elogiamos tu valentía y disposición para enfrentar desafíos y salir de tu zona de confort.",
-    "tipoEstrella": "coder"
+    "nombre": "Guillermo",
+    "apellido": "Matas",
+    "urlCara": "img/guillermomatas.png",
+    "mensaje": "✨ Inspirador nato, recordándonos que la grandeza está en dar.",
+    "tipoEstrella": "profesional"
   },
   {
     "id": 6,
-    "nombre": "Jonnathan",
-    "apellido": "Ospina",
-    "urlCara": "img/jonn.png",
-    "mensaje": "Siempre con ganas de mejorar, adaptarte y aportar lo máximo que puedes.",
-    "tipoEstrella": "interna"
+    "nombre": "Cristina",
+    "apellido": "Sanjuan",
+    "urlCara": "img/cristina.png",
+    "mensaje": "❤️ Excoder brillante, regalando experiencia a quienes siguen sus pasos.",
+    "tipoEstrella": "alumni"
   },
   {
     "id": 7,
-    "nombre": "Jorge",
-    "apellido": "Benítez",
-    "urlCara": "img/jorge.jpeg",
-    "mensaje": "Siempre implicado en el aprendizaje propio y de los que te rodean.",
-    "tipoEstrella": "coder"
+    "nombre": "Zoraida",
+    "apellido": "Manzanares",
+    "urlCara": "img/zoraida.png",
+    "mensaje": "  🌟 Orgullo de la casa, devolviendo al aula lo que un día la inspiró.",
+    "tipoEstrella": "alumni"
   },
   {
     "id": 8,
-    "nombre": "Jorge",
-    "apellido": "Martínez",
-    "urlCara": "img/jorgem.png",
-    "mensaje": "Queremos destacar tu perseverancia, dedicación y motivación.",
-    "tipoEstrella": "coder"
-  },
-  {
-    "id": 9,
-    "nombre": "Alexandra",
-    "apellido": "Zambrano",
-    "urlCara": "img/alex.png",
-    "mensaje": "Reconocemos tu capacidad para inspirar y motivar a los demás a alcanzar metas.",
-    "tipoEstrella": "coder"
+    "nombre": "Alberto",
+    "apellido": "Díaz",
+    "urlCara": "img/alberto.png",
+    "mensaje": "🧠 De aprendiz a maestro, una inspiración para todos nosotros.",
+    "tipoEstrella": "alumni"
   }
 ]
