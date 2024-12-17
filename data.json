@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "nombre": "Ana Karen",
-    "apellido": "Aragón",
-    "urlCara": "img/anakaren.jpg",
+    "nombre": "Oury",
+    "apellido": "Diallo",
+    "urlCara": "img/oury.png",
     "mensaje": "Eres flexible y con gran capacidad para enfrentar cambios y desafíos con una actitud positiva.",
-    "tipoEstrella": "externa"
+    "tipoEstrella": "interna"
   },
   {
     "id": 2,
