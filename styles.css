@@ -160,14 +160,14 @@ h1 {
 @media (max-width: 768px) {
   .header {
     gap: 2px; /* Espacio entre el h1 y la imagen */
-    h1 {
-      font-size: 50px;
-      margin-top: 55px;
-    }
-    .header-logo {
-      width: 200px;
-      margin-top: 10px;
-    }
+  }
+  h1 {
+    font-size: 50px;
+    margin-top: 55px;
+  }
+  .header-logo {
+    width: 200px;
+    margin-top: 10px;
   }
 
   .description {
