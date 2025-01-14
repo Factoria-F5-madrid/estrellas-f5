@@ -1,14 +1,6 @@
 [
   {
     "id": 1,
-    "nombre": "Oury",
-    "apellido": "Diallo",
-    "urlCara": "img/oury.png",
-    "mensaje": "Dando forma al futuro, compartiendo lo mejor de sí con quienes empieza este viaje.",
-    "tipoEstrella": "coder"
-  },
-  {
-    "id": 2,
     "nombre": "Marcos",
     "apellido": "Íñigo",
     "urlCara": "img/marcos.png",
@@ -16,7 +8,31 @@
     "tipoEstrella": "profesional"
   },
   {
+    "id": 2,
+    "nombre": "Daniel",
+    "apellido": "Torbellino",
+    "urlCara": "img/torbellino.jpeg",
+    "mensaje": "Gran capacidad para conectar personas y estar presente",
+    "tipoEstrella": "profesional"
+  },
+  {
     "id": 3,
+    "nombre": "Manuel",
+    "apellido": "Ruíz",
+    "urlCara": "img/manuel.jpeg",
+    "mensaje": "Excelente profesional e implacable forjador de puentes",
+    "tipoEstrella": "profesional"
+  },
+  {
+    "id": 4,
+    "nombre": "Guillermo",
+    "apellido": "Matas",
+    "urlCara": "img/guillermomatas.png",
+    "mensaje": "Inspirador nato y profesional todoterreno, siempre dispuesto a colaborar.",
+    "tipoEstrella": "profesional"
+  },
+  {
+    "id": 5,
     "nombre": "Diego",
     "apellido": "Bastidas",
     "urlCara": "img/diego.png",
@@ -24,7 +40,7 @@
     "tipoEstrella": "profesional"
   },
   {
-    "id": 4,
+    "id": 6,
     "nombre": "Guillermo",
     "apellido": "Martínez",
     "urlCara": "img/guillermom.png",
@@ -32,15 +48,7 @@
     "tipoEstrella": "profesional"
   },
   {
-    "id": 5,
-    "nombre": "Guillermo",
-    "apellido": "Matas",
-    "urlCara": "img/guillermomatas.png",
-    "mensaje": "Inspirador nato, recordándonos que la grandeza está en dar y compartir.",
-    "tipoEstrella": "profesional"
-  },
-  {
-    "id": 6,
+    "id": 7,
     "nombre": "Cristina",
     "apellido": "Sanjuan",
     "urlCara": "img/cristina.png",
@@ -48,7 +56,7 @@
     "tipoEstrella": "alumni"
   },
   {
-    "id": 7,
+    "id": 8,
     "nombre": "Zoraida",
     "apellido": "Manzanares",
     "urlCara": "img/zoraida.png",
@@ -56,11 +64,19 @@
     "tipoEstrella": "alumni"
   },
   {
-    "id": 8,
+    "id": 9,
     "nombre": "Alberto",
     "apellido": "Díaz",
     "urlCara": "img/alberto.png",
     "mensaje": "De aprendiz a maestro, una inspiración para todos nosotros.",
     "tipoEstrella": "alumni"
+  },
+  {
+    "id": 10,
+    "nombre": "Oury",
+    "apellido": "Diallo",
+    "urlCara": "img/oury.png",
+    "mensaje": "Dando forma al futuro, compartiendo lo mejor de sí con quienes empieza este viaje.",
+    "tipoEstrella": "coder"
   }
 ]
