@@ -41,6 +41,14 @@
   },
   {
     "id": 6,
+    "nombre": "Raúl",
+    "apellido": "Castilla",
+    "urlCara": "img/raul.jpeg",
+    "mensaje": "Gran capacidad para explicar temas complejos de manera sencilla  y apertura para resolver dudas a traves de experiencias.",
+    "tipoEstrella": "profesional"
+  },
+  {
+    "id": 7,
     "nombre": "Guillermo",
     "apellido": "Martínez",
     "urlCara": "img/guillermom.png",
@@ -48,7 +56,32 @@
     "tipoEstrella": "profesional"
   },
   {
-    "id": 7,
+    "id": 8,
+    "nombre": "Microsoft",
+    "apellido": "",
+    "urlCara": "img/microsoft.png",
+    "mensaje": "Empresa comprometida con la educación, embajadores de la diversidad, y altavoz del talento F5.",
+    "tipoEstrella": "profesional"
+  },
+  {
+    "id": 9,
+    "nombre": "Meta",
+    "apellido": "",
+    "urlCara": "img/meta.png",
+    "mensaje": "Empresa solidaria y con compromiso social fomentando habilidades tecnológicas",
+    "tipoEstrella": "profesional"
+  },
+  {
+    "id": 10,
+    "nombre": "Saturdays AI",
+    "apellido": "",
+    "urlCara": "img/saturdays.png",
+    "mensaje": "Colaboración ofreciendo facilidades para la formación en IA que benefician a toda la comunidad de Factoría F5",
+    "tipoEstrella": "profesional"
+  },
+
+  {
+    "id": 11,
     "nombre": "Cristina",
     "apellido": "Sanjuan",
     "urlCara": "img/cristina.png",
@@ -56,7 +89,7 @@
     "tipoEstrella": "alumni"
   },
   {
-    "id": 8,
+    "id": 12,
     "nombre": "Zoraida",
     "apellido": "Manzanares",
     "urlCara": "img/zoraida.png",
@@ -64,7 +97,7 @@
     "tipoEstrella": "alumni"
   },
   {
-    "id": 9,
+    "id": 13,
     "nombre": "Alberto",
     "apellido": "Díaz",
     "urlCara": "img/alberto.png",
@@ -72,7 +105,7 @@
     "tipoEstrella": "alumni"
   },
   {
-    "id": 10,
+    "id": 14,
     "nombre": "Oury",
     "apellido": "Diallo",
     "urlCara": "img/oury.png",

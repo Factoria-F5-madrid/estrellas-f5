@@ -25,7 +25,10 @@ function filterPersonas() {
 
   let result = personas;
 
-  if (tipoEstrella && ["alumni", "profesional", "coder"].includes(tipoEstrella)) {
+  if (
+    tipoEstrella &&
+    ["alumni", "profesional", "coder"].includes(tipoEstrella)
+  ) {
     result = result.filter((persona) => persona.tipoEstrella === tipoEstrella);
   }
 
@@ -65,7 +68,7 @@ function mostrarSiguientePersona() {
     const typeStarElement = document.querySelector(".type-star");
     switch (persona.tipoEstrella) {
       case "profesional":
-        typeStarElement.textContent = "Profesional Estrella F5";
+        typeStarElement.textContent = "Estrella F5";
         break;
       case "alumni":
         typeStarElement.textContent = "Alumni Estrella F5";
@@ -77,7 +80,6 @@ function mostrarSiguientePersona() {
         typeStarElement.textContent = "Estrella F5";
     }
 
- 
     const estrella = document.getElementById("tipo-estrella");
     let iframeSrc = "";
 
@@ -101,4 +103,3 @@ function mostrarSiguientePersona() {
     personaDiv.style.opacity = 1;
   }, 500);
 }
-
