@@ -12,7 +12,7 @@
     "nombre": "Daniel",
     "apellido": "Torbellino",
     "urlCara": "img/torbellino.jpeg",
-    "mensaje": "Gran capacidad para conectar personas y estar presente",
+    "mensaje": "Gran capacidad para conectar personas y estar presente compartiendo su experiencia.",
     "tipoEstrella": "profesional"
   },
   {
@@ -44,7 +44,7 @@
     "nombre": "Raúl",
     "apellido": "Castilla",
     "urlCara": "img/raul.jpeg",
-    "mensaje": "Gran capacidad para explicar temas complejos de manera sencilla  y apertura para resolver dudas a traves de experiencias.",
+    "mensaje": "Gran capacidad para explicar temas complejos y apertura para resolver dudas.",
     "tipoEstrella": "profesional"
   },
   {
@@ -53,6 +53,14 @@
     "apellido": "Martínez",
     "urlCara": "img/guillermom.png",
     "mensaje": "Profesional generoso, iluminando mentes con su experiencia única.",
+    "tipoEstrella": "profesional"
+  },
+  {
+    "id": 7,
+    "nombre": "Juan Luis",
+    "apellido": "Cano",
+    "urlCara": "img/juanlu.png",
+    "mensaje": "Colaborador excepcional que ha apoyado desde sus inicios con conocimiento e iniciativas clave.",
     "tipoEstrella": "profesional"
   },
   {
@@ -76,7 +84,7 @@
     "nombre": "Saturdays AI",
     "apellido": "",
     "urlCara": "img/saturdays.png",
-    "mensaje": "Colaboración ofreciendo facilidades para la formación en IA que benefician a toda la comunidad de Factoría F5",
+    "mensaje": "Organización clave en el conocimiento y formación en IA que benefician a toda la comunidad de Factoría F5",
     "tipoEstrella": "profesional"
   },
 
@@ -105,11 +113,19 @@
     "tipoEstrella": "alumni"
   },
   {
-    "id": 14,
-    "nombre": "Oury",
-    "apellido": "Diallo",
-    "urlCara": "img/oury.png",
-    "mensaje": "Dando forma al futuro, compartiendo lo mejor de sí con quienes empieza este viaje.",
+    "id": 15,
+    "nombre": "María",
+    "apellido": "López",
+    "urlCara": "img/maria.jpeg",
+    "mensaje": "Embajadora de F5, colabora en eventos y acciones clave con gran compromiso.",
+    "tipoEstrella": "alumni"
+  },
+  {
+    "id": 16,
+    "nombre": "Pepe",
+    "apellido": "Ruiz",
+    "urlCara": "img/pepe.jpeg",
+    "mensaje": "Apoyo incondicional a compañeros y equipo, siempre con la mejor actitud.",
     "tipoEstrella": "coder"
   }
 ]
