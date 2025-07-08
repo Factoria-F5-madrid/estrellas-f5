@@ -232,5 +232,6 @@ h1 {
   .foto {
     border-radius: 5px;
     height: 350px;
+    padding-bottom: 20px;
   }
 }
