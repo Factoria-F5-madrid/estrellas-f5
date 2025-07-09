@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       filteredPersonas = filterPersonas();
       if (filteredPersonas.length > 0) {
         mostrarSiguientePersona();
-        setInterval(mostrarSiguientePersona, 8000);
+        setInterval(mostrarSiguientePersona, 6000);
       } else {
         document.getElementById("persona").innerHTML =
           "<p>No se encontraron resultados para el filtro aplicado.</p>";
