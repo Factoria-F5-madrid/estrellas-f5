@@ -126,6 +126,30 @@
     "apellido": "Ruiz",
     "urlCara": "img/pepe.jpeg",
     "mensaje": "Apoyo incondicional a compañeros y equipo, siempre con la mejor actitud.",
-    "tipoEstrella": "coder"
+    "tipoEstrella": "alumni"
+  },
+  {
+    "id": 17,
+    "nombre": "Nhoeli",
+    "apellido": "Salazar",
+    "urlCara": "img/nhoeli.png",
+    "mensaje": "Constancia, humildad y talento que inspiran a toda la comunidad F5.",
+    "tipoEstrella": "alumni"
+  },
+  {
+    "id": 18,
+    "nombre": "Álvaro",
+    "apellido": "Galán",
+    "urlCara": "img/alvaro-galan.png",
+    "mensaje": "Un referente de implicación, empatía y apoyo constante entre Sage y Factoría F5.",
+    "tipoEstrella": "profesional"
+  },
+  {
+    "id": 19,
+    "nombre": "Álvaro",
+    "apellido": "Marcos",
+    "urlCara": "img/alvaro-marcos.png",
+    "mensaje": "Puente imprescindible entre Factoría F5 y Microsoft, siempre dispuesto hacer que las cosas sucedan.",
+    "tipoEstrella": "profesional"
   }
 ]
