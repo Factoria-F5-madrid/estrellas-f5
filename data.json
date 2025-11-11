@@ -151,5 +151,13 @@
     "urlCara": "img/alvaro-marcos.png",
     "mensaje": "Puente imprescindible entre Factoría F5 y Microsoft, siempre dispuesto hacer que las cosas sucedan.",
     "tipoEstrella": "profesional"
+  },
+  {
+    "id": 20,
+    "nombre": "Jorge",
+    "apellido": "Valenzuela",
+    "urlCara": "img/jorge-v.png",
+    "mensaje": "Su apoyo constante demuestra que el verdadero impacto no tiene fronteras.",
+    "tipoEstrella": "profesional"
   }
 ]
